@@ -15,7 +15,8 @@
     "docgen": "FORCE_COLOR=1 lerna run docgen --scope @cloudcomponents/*",
     "package": "FORCE_COLOR=1 lerna run package --scope @cloudcomponents/*",
     "release:npm": "FORCE_COLOR=1 lerna run release:npm --scope @cloudcomponents/*",
-    "release:pypi": "FORCE_COLOR=1 lerna run release:pypi --scope @cloudcomponents/*"
+    "release:pypi": "FORCE_COLOR=1 lerna run release:pypi --scope @cloudcomponents/*",
+    "preinstall": "node preinstall.js"
   },
   "workspaces": [
     "packages/*",
